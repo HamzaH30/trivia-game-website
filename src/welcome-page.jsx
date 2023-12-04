@@ -1,3 +1,5 @@
+import "./welcome-page-style.css";
+
 export default function WelcomePage() {
   return (
     <section className="welcome-page-description">
