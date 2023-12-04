@@ -1,0 +1,13 @@
+.error-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.error-fact {
+  color: #0077b6;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Life Savers", sans-serif;
+  font-weight: bold;
+}
