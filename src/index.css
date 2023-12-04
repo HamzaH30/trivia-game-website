@@ -25,48 +25,16 @@ h1 {
   text-align: center;
 }
 
-.welcome-page-description {
-  margin: 0;
-  font-family: "Life Savers", serif;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.welcome-page-description span {
-  font-weight: bold;
-}
-
-.blue-text {
-  color: #0077b6;
-}
-
-.amber-text {
-  color: #f3b700;
-}
-
-.green-text {
+h2 {
   color: #52b788;
+  font-family: "Eczar", serif;
+  text-align: center;
 }
 
 .orange-text {
   color: #e55934;
 }
 
-.play-btn-container {
-  display: flex;
-  justify-content: center;
-  /* margin-top: 10rem; */
-}
-
-.play-btn {
-  background-color: #52b788;
-  border-radius: 30px;
-  border-style: none;
-  box-shadow: #12130f 6px 5px 1px 0px;
-
-  padding: 1rem 2rem;
-  font-family: "Eczar", serif;
-  font-size: 1.5rem;
-
-  cursor: pointer;
+.blue-text {
+  color: #0077b6;
 }
