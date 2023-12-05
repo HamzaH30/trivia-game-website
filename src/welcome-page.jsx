@@ -1,4 +1,5 @@
 import "./welcome-page-style.css";
+import { Link } from "react-router-dom";
 
 export default function WelcomePage() {
   return (
@@ -22,7 +23,9 @@ export default function WelcomePage() {
         </span>
       </p>
       <div className="play-btn-container">
-        <button className="play-btn">Play Now</button>
+        <Link to="/game">
+          <button className="play-btn">Play Now</button>
+        </Link>
       </div>
     </section>
   );
