@@ -38,3 +38,16 @@ h2 {
 .blue-text {
   color: #0077b6;
 }
+
+button {
+  background-color: #52b788;
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: #12130f 6px 5px 1px 0px;
+
+  padding: 1rem 2rem;
+  font-family: "Eczar", serif;
+  font-size: 1.5rem;
+
+  cursor: pointer;
+}
