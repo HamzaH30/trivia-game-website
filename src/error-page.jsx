@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./error-page-style.css";
 
 export default function ErrorPage() {
@@ -29,6 +30,11 @@ export default function ErrorPage() {
       <div className="error-fact">
         <p className="orange-text">Did you know?</p>
         <p>{fact}</p>
+      </div>
+      <div className="error-page-btn-container">
+        <Link to="/">
+          <button className="error-page-btn">Go to Main Page</button>
+        </Link>
       </div>
     </section>
   );
